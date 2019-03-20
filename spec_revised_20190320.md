@@ -70,7 +70,7 @@ ________________
 
 ### Wildcard matching of log tag names
 * Wildcard matching of log tag names must align with the tag name part delimiter, the period (".").
-* Example: "*.tiff", "imgcodecs.*"
+* Example: "\*.tiff", "imgcodecs.\*"
 * Users who need additional log filtering criteria shall do so in a logging backend of the user's choice, by making use of the backend extensibility of the new logging system. Backend extensibility will be discussed soon.
 
 ### Backend extensibility
